@@ -1,0 +1,30 @@
+.con-right>p:first-child {
+    text-align:center;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+
+.con-right img{
+    float:left;
+    margin-right: 20px;
+}
+
+.con-right div:last-child {
+    float:left;
+    width: 320px;
+    margin-left: 20px;
+    line-height: 35px;
+    /* text-align:right; */
+}
+
+.con-right div:last-child p:first-child {
+    text-align:left;
+    margin-top: 0;
+    margin-bottom: 45px;
+}
+
+
+.con-right div:last-child p {
+    text-align:right;
+}

@@ -1,0 +1,105 @@
+a {
+    color: black;
+}
+
+.content {
+    width: 1200px;
+    margin: 0 auto;
+    height: auto;
+    padding-bottom: 85px;
+}
+
+
+
+
+.content>p {
+    padding-left: 25px;
+    line-height: 70px;
+}
+
+
+.content .clearFloat {
+    clear: both;
+}
+
+
+.content .link2 {
+    color: rgb(182, 66, 85);
+}
+
+.con {
+    float: left;
+}
+
+
+.con-left {
+    margin-right: 50px;
+    width: 245px;
+}
+
+.con-left>ul>li {
+    margin-bottom: 15px;
+}
+
+.con-left>ul>li>p {
+    color: white;
+    background: #aa2270;
+    text-align:center;
+    padding-left: 0;
+}
+
+
+.con-left p {
+    line-height: 35px;
+    padding-left: 50px;
+    background: #ccc;
+}
+
+
+.con-left>ul>li:hover .detailsUl{
+    display: block;
+}
+
+
+.detailsUl  {
+    padding: 10px 0;
+    border-top: 1px solid black;
+    border-bottom: 1px dotted black;
+    margin-top: 5px;
+    display: none;
+}
+
+.detailsUl .debg {
+    background: white;
+}
+
+.detailsUl>li {
+    position: relative;
+}
+
+.detailsUl .triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-left: 10px solid black;
+    
+    left: 36px;
+    /* top: 50%; */
+    top: 8px;
+    /* margin-top: -9px; */
+
+}
+
+
+.detailsUl .dotted {
+    border-top: 1px dotted black;
+    margin: 10px 0;
+}
+
+.con-right {
+    width: 905px;
+}
+
+
+

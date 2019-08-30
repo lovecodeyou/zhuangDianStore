@@ -1,0 +1,13 @@
+
+
+.con-right img {
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.con-right>p:first-child {
+    line-height: 16px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}

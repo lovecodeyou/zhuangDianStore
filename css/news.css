@@ -1,0 +1,31 @@
+
+
+
+.con-right ol {
+    float: right;
+    margin-top: 60px;
+}
+
+.con-right ol li {
+    line-height: 25px;
+    text-align: center;
+    padding: 0 10px;
+    float: left;
+    background: #ccc;
+    margin-left: 15px;
+}
+
+.con-right>p:first-child {
+    line-height: 16px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+
+.con-right p {
+    line-height: 45px;
+}
+
+.con-right span {
+   float: right;
+}

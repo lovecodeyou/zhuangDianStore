@@ -1,0 +1,50 @@
+.con-right ul li {
+    float: left;
+    margin-left: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 289px;
+    text-align:center;
+    margin-top: 20px;
+    position: relative;
+    
+}
+
+.con-right ul li>a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.con-right p {
+    line-height: 36px;
+}
+
+.con-right .right-align {
+    text-align:right;
+}
+
+
+
+.con-right ol {
+    float:right;
+    margin-top: 60px;
+}
+
+.con-right>p:first-child {
+    line-height: 16px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.con-right ol li {
+    line-height: 25px;
+    text-align:center;
+    padding: 0 10px;
+    float:left;
+    background: #ccc;
+    margin-left: 15px;
+}
